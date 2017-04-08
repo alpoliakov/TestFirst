@@ -9,8 +9,6 @@
 //#include <stdio.h>
 #include "APPrintText.h"
 
-
-
 int main(int argc, const char * argv[]) {
     // insert code here...
     //printf("Hello, World!\n");
@@ -19,6 +17,7 @@ int main(int argc, const char * argv[]) {
     APPrint("World!");
     APPrint("mama!");
     APPrintParents();
+    
     return 0;
 }
 

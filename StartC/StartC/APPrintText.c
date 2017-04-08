@@ -8,14 +8,13 @@
 #include <stdio.h>
 #include "APPrintText.h"
 
-//char *text = "Hello, papa!";
-
 /*
 void APPrint(){
     printf("Hello, World!\n");
 }
 */
 
+// Function APPrint() outputs into console some text that starts with a word "Hello".
 void APPrint(char *text){
     printf("Hello, %s\n", text);
 }

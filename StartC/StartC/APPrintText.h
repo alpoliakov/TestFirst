@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
+// Function APPrint() outputs into console some text that starts with a word "Hello".
 void APPrint();
 void APPrintParents();
 #endif /* APPrintText_h */
