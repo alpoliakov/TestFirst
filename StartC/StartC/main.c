@@ -6,8 +6,9 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-//#include <stdio.h>
 #include "APPrintText.h"
+#include "APPrintSomeNumber.h"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -17,6 +18,8 @@ int main(int argc, const char * argv[]) {
     APPrint("World!");
     APPrint("mama!");
     APPrintParents();
+    APPrintNumberForUp();
+    APPrintNumberForDown();
     
     return 0;
 }

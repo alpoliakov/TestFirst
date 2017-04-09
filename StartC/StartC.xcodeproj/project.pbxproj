@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		061234761E99698B00F88999 /* APPrintText.c in Sources */ = {isa = PBXBuildFile; fileRef = 061234741E99698B00F88999 /* APPrintText.c */; };
+		061234791E9991E200F88999 /* APPrintSomeNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 061234771E9991E200F88999 /* APPrintSomeNumber.c */; };
 		067B08D91E993C5800104497 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 067B08D81E993C5800104497 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		061234741E99698B00F88999 /* APPrintText.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APPrintText.c; sourceTree = "<group>"; };
 		061234751E99698B00F88999 /* APPrintText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPrintText.h; sourceTree = "<group>"; };
+		061234771E9991E200F88999 /* APPrintSomeNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APPrintSomeNumber.c; sourceTree = "<group>"; };
+		061234781E9991E200F88999 /* APPrintSomeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPrintSomeNumber.h; sourceTree = "<group>"; };
 		067B08D51E993C5800104497 /* StartC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StartC; sourceTree = BUILT_PRODUCTS_DIR; };
 		067B08D81E993C5800104497 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,8 @@
 				067B08D81E993C5800104497 /* main.c */,
 				061234741E99698B00F88999 /* APPrintText.c */,
 				061234751E99698B00F88999 /* APPrintText.h */,
+				061234771E9991E200F88999 /* APPrintSomeNumber.c */,
+				061234781E9991E200F88999 /* APPrintSomeNumber.h */,
 			);
 			path = StartC;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				067B08D91E993C5800104497 /* main.c in Sources */,
 				061234761E99698B00F88999 /* APPrintText.c in Sources */,
+				061234791E9991E200F88999 /* APPrintSomeNumber.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
