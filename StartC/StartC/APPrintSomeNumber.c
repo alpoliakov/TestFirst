@@ -9,9 +9,18 @@
 #include "APPrintSomeNumber.h"
 
 void APPrintNumberForUp(){
-    printf("1234567890\n");
+    char i = 0;
+    for(; i <= 9; i++){
+        printf("%d", i);
+    }
+    printf("\n");
+    
 }
 
 void APPrintNumberForDown(){
-    printf("0987654321\n");
+    char i = 9;
+    for(; i >= 0; i--){
+        printf("%d", i);
+    }
+    printf("\n");
 }

@@ -15,4 +15,8 @@ void APPrintNumberForUp();
 
 #endif /* APPrintSomeNumber_h */
 
+//#ifndef APPrintSomeNumber_h
+
 void APPrintNumberForDown();
+
+//#endif /* APPrintSomeNumber_h */

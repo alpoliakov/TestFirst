@@ -15,8 +15,10 @@ void APPrint(){
 */
 
 // Function APPrint() outputs into console some text that starts with a word "Hello".
-void APPrint(char *text){
-   printf("Hello, %s\n", text);
+
+
+void APPrint(char *text) {
+    printf("Hello, %s\n", text);
 }
 
 void APPrintParents(){
