@@ -53,7 +53,7 @@ int main(int argc, const char * argv[]) {
     APsomeMathLogicOperations(12, 15);
     APSomeTernaryOperation(20, 10);
     APSomeIfElseOperation(20,30);
-    AOSomeExampleArray();
+    APSomeExampleArray();
        
     return 0;
 }

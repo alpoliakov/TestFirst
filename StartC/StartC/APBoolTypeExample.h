@@ -16,6 +16,6 @@ void APsomeExamplesBool(bool);
 void APsomeMathLogicOperations();
 void APSomeTernaryOperation();
 void APSomeIfElseOperation();
-void AOSomeExampleArray();
+void APSomeExampleArray();
 
 #endif /* APBoolTypeExample_h */
