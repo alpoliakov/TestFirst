@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APPrintSomeNumber.h"
+#import "APPrintSomeNumber.h"
 
 void APPrintNumberForUp(){
     char i = 0;

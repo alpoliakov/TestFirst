@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APBoolTypeExample.h"
+#import "APBoolTypeExample.h"
 
 void APsomeExamplesBool(bool trueOrFalse){
     if (trueOrFalse != 0) {

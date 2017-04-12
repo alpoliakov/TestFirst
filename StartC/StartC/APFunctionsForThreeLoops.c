@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APFunctionsForThreeLoops.h"
+#import "APFunctionsForThreeLoops.h"
 
 void APFunctionOutputNambersLoopFor(int iteration, int small, int big){
     for (int count = small, y = 2; count <= big && count != 50; count++, y++){

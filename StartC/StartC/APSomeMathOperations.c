@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APSomeMathOperations.h"
+#import "APSomeMathOperations.h"
 
 double doubleResult = 3.0;
 void APFunctionMathOperations(){

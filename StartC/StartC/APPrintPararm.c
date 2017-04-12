@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APPrintPararm.h"
+#import "APPrintPararm.h"
 
 void APprintSomeParam(char *APnameSomeParam, char *APsomeParam){
     printf("%s : %s\n", APnameSomeParam, APsomeParam);

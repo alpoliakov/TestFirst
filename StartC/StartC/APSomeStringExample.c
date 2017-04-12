@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APSomeStringExample.h"
+#import "APSomeStringExample.h"
 
 char someSrtring[] = {"Some string wich has some long."};
 char *valueSomeString = someSrtring;

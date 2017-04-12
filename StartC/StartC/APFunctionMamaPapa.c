@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-#include "APFunctionMamaPapa.h"
+#import "APFunctionMamaPapa.h"
 
 
 // The first variant
