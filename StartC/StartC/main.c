@@ -15,6 +15,9 @@
 #include "APDecrimentIncrement.h"
 #include "APSomeMathOperations.h"
 #include "APBoolTypeExample.h"
+#include "APSomeStringExample.h"
+#include "APFunctionsForThreeLoops.h"
+#include "APFunctionMamaPapa.h"
 
 /*
 char *APtestChar = "Hello";
@@ -54,6 +57,9 @@ int main(int argc, const char * argv[]) {
     APSomeTernaryOperation(20, 10);
     APSomeIfElseOperation(20,30);
     APSomeExampleArray();
+    APFunctionLengthString();
+    APFunctionOutputSymbols();
+    APtestFunctionMamaPapa(30);
        
     return 0;
 }

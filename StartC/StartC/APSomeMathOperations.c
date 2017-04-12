@@ -59,7 +59,7 @@ void APPrintSomeVariablesTypes(){
     long someLong;
     
     
-    printf("%d\n %d\n %f\n %f\n %f\n %lf\n\v", someChare, someInt, someFloat, someDouble, someOneShort, someLong);
+    printf("%d\n %d\n %f\n %f\n %d\n %ld\n\v", someChare, someInt, someFloat, someDouble, someOneShort, someLong);
     printf("Declaring and not initializing a variable, we do not know what exactly is in the variable now.\n\v");
 }
 
