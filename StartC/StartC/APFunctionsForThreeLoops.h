@@ -11,4 +11,7 @@
 
 #include <stdio.h>
 
+void APFunctionOutputNambersLoopFor();
+void APFunctionOutputNambersWhile();
+
 #endif /* APFunctionsForThreeLoops_h */
