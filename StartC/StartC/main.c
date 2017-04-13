@@ -19,6 +19,7 @@
 #import "APFunctionsForThreeLoops.h"
 #import "APFunctionMamaPapa.h"
 #import "APSenatorFunction.h"
+#include "APFunctionMacrosType.h"
 
 /*
 char *APtestChar = "Hello";
@@ -35,6 +36,8 @@ float APtestFloat = 3.4E+38;
 double APtestDouble = 1.7E+308;
 long double APtestLongDouble = 3.4E-324;
 */
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -64,6 +67,9 @@ int main(int argc, const char * argv[]) {
     APPrintMP(30);
     APFunctionOutputNambersLoopFor(4, 1, 8);
     APFunctionOutputNambersWhile(5, 2, 9);
+    APFunctionSenatorIncome(200);
+    APSomeFunctionMacros();
+    
     
     
     return 0;

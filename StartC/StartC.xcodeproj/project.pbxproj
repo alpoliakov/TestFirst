@@ -15,6 +15,7 @@
 		0617A7481E9C49D5001EEF8C /* APBoolTypeExample.c in Sources */ = {isa = PBXBuildFile; fileRef = 0617A7461E9C49D5001EEF8C /* APBoolTypeExample.c */; };
 		063A1A6D1E9D814B006B8C74 /* APSomeStringExample.c in Sources */ = {isa = PBXBuildFile; fileRef = 063A1A6B1E9D814B006B8C74 /* APSomeStringExample.c */; };
 		06494DFD1E9E9F82004A4A11 /* APSenatorFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = 06494DFB1E9E9F82004A4A11 /* APSenatorFunction.c */; };
+		06494E001E9ED3D9004A4A11 /* APFunctionMacrosType.c in Sources */ = {isa = PBXBuildFile; fileRef = 06494DFE1E9ED3D9004A4A11 /* APFunctionMacrosType.c */; };
 		067B08D91E993C5800104497 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 067B08D81E993C5800104497 /* main.c */; };
 		068289D61E9E13B500CEEAAB /* APFunctionsForThreeLoops.c in Sources */ = {isa = PBXBuildFile; fileRef = 068289D41E9E13B500CEEAAB /* APFunctionsForThreeLoops.c */; };
 		068289D91E9E1DC900CEEAAB /* APFunctionMamaPapa.c in Sources */ = {isa = PBXBuildFile; fileRef = 068289D71E9E1DC900CEEAAB /* APFunctionMamaPapa.c */; };
@@ -49,6 +50,8 @@
 		063A1A6C1E9D814B006B8C74 /* APSomeStringExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSomeStringExample.h; sourceTree = "<group>"; };
 		06494DFB1E9E9F82004A4A11 /* APSenatorFunction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APSenatorFunction.c; sourceTree = "<group>"; };
 		06494DFC1E9E9F82004A4A11 /* APSenatorFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSenatorFunction.h; sourceTree = "<group>"; };
+		06494DFE1E9ED3D9004A4A11 /* APFunctionMacrosType.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APFunctionMacrosType.c; sourceTree = "<group>"; };
+		06494DFF1E9ED3D9004A4A11 /* APFunctionMacrosType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFunctionMacrosType.h; sourceTree = "<group>"; };
 		067B08D51E993C5800104497 /* StartC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StartC; sourceTree = BUILT_PRODUCTS_DIR; };
 		067B08D81E993C5800104497 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		068289D41E9E13B500CEEAAB /* APFunctionsForThreeLoops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APFunctionsForThreeLoops.c; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				068289D51E9E13B500CEEAAB /* APFunctionsForThreeLoops.h */,
 				06494DFB1E9E9F82004A4A11 /* APSenatorFunction.c */,
 				06494DFC1E9E9F82004A4A11 /* APSenatorFunction.h */,
+				06494DFE1E9ED3D9004A4A11 /* APFunctionMacrosType.c */,
+				06494DFF1E9ED3D9004A4A11 /* APFunctionMacrosType.h */,
 			);
 			path = StartC;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				061234761E99698B00F88999 /* APPrintText.c in Sources */,
 				0617A7421E9C0A0A001EEF8C /* APDecrimentIncrement.c in Sources */,
 				063A1A6D1E9D814B006B8C74 /* APSomeStringExample.c in Sources */,
+				06494E001E9ED3D9004A4A11 /* APFunctionMacrosType.c in Sources */,
 				068289D91E9E1DC900CEEAAB /* APFunctionMamaPapa.c in Sources */,
 				061234791E9991E200F88999 /* APPrintSomeNumber.c in Sources */,
 			);
