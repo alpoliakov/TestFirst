@@ -53,7 +53,7 @@ void APFunctionMyFirstStructure(){
            offsetof(AP_MyFirstStructure, someBool5),
            offsetof(AP_MyFirstStructure, someBool6));
     
-    printf("sizeof(AP_MyFirstStructure) = %zd\n\v", sizeof(AP_MyFirstStructure));
+    printf("Sizeof(AP_MyFirstStructure) = %zd\n\v", sizeof(AP_MyFirstStructure));
     
       
 //    
@@ -73,9 +73,9 @@ AP_FirstUnionStructure unionStructure;
 
 void APStructureAndUnionTest(){
     
-    printf("sizeof(AP_FirstUnionStructure) = %zd\n\v", sizeof(AP_FirstUnionStructure));
-    printf("Ofset bitFieldsBool = %zd\n\v", offsetof(AP_FirstUnionStructure, bitFieldsBool));
-    printf("Ofset flags = %zd\n\v", offsetof(AP_FirstUnionStructure, flags));
+    printf("Sizeof(AP_FirstUnionStructure) = %zd\n\v", sizeof(AP_FirstUnionStructure));
+    printf("Offset bitFieldsBool = %zd\n\v", offsetof(AP_FirstUnionStructure, bitFieldsBool));
+    
     
 }
 
