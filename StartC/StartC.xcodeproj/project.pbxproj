@@ -19,6 +19,8 @@
 		067B08D91E993C5800104497 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 067B08D81E993C5800104497 /* main.c */; };
 		068289D61E9E13B500CEEAAB /* APFunctionsForThreeLoops.c in Sources */ = {isa = PBXBuildFile; fileRef = 068289D41E9E13B500CEEAAB /* APFunctionsForThreeLoops.c */; };
 		068289D91E9E1DC900CEEAAB /* APFunctionMamaPapa.c in Sources */ = {isa = PBXBuildFile; fileRef = 068289D71E9E1DC900CEEAAB /* APFunctionMamaPapa.c */; };
+		06CB2ED01EA03B4A00C09B82 /* APOutputSizeType.c in Sources */ = {isa = PBXBuildFile; fileRef = 06CB2ECE1EA03B4A00C09B82 /* APOutputSizeType.c */; };
+		06CB2ED31EA03FD800C09B82 /* APFirstWorkWithStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 06CB2ED11EA03FD800C09B82 /* APFirstWorkWithStructure.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +60,10 @@
 		068289D51E9E13B500CEEAAB /* APFunctionsForThreeLoops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFunctionsForThreeLoops.h; sourceTree = "<group>"; };
 		068289D71E9E1DC900CEEAAB /* APFunctionMamaPapa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APFunctionMamaPapa.c; sourceTree = "<group>"; };
 		068289D81E9E1DC900CEEAAB /* APFunctionMamaPapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFunctionMamaPapa.h; sourceTree = "<group>"; };
+		06CB2ECE1EA03B4A00C09B82 /* APOutputSizeType.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APOutputSizeType.c; sourceTree = "<group>"; };
+		06CB2ECF1EA03B4A00C09B82 /* APOutputSizeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOutputSizeType.h; sourceTree = "<group>"; };
+		06CB2ED11EA03FD800C09B82 /* APFirstWorkWithStructure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APFirstWorkWithStructure.c; sourceTree = "<group>"; };
+		06CB2ED21EA03FD800C09B82 /* APFirstWorkWithStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFirstWorkWithStructure.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				06494DFC1E9E9F82004A4A11 /* APSenatorFunction.h */,
 				06494DFE1E9ED3D9004A4A11 /* APFunctionMacrosType.c */,
 				06494DFF1E9ED3D9004A4A11 /* APFunctionMacrosType.h */,
+				06CB2ECE1EA03B4A00C09B82 /* APOutputSizeType.c */,
+				06CB2ECF1EA03B4A00C09B82 /* APOutputSizeType.h */,
+				06CB2ED11EA03FD800C09B82 /* APFirstWorkWithStructure.c */,
+				06CB2ED21EA03FD800C09B82 /* APFirstWorkWithStructure.h */,
 			);
 			path = StartC;
 			sourceTree = "<group>";
@@ -174,6 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CB2ED31EA03FD800C09B82 /* APFirstWorkWithStructure.c in Sources */,
+				06CB2ED01EA03B4A00C09B82 /* APOutputSizeType.c in Sources */,
 				0617A7481E9C49D5001EEF8C /* APBoolTypeExample.c in Sources */,
 				068289D61E9E13B500CEEAAB /* APFunctionsForThreeLoops.c in Sources */,
 				06494DFD1E9E9F82004A4A11 /* APSenatorFunction.c in Sources */,

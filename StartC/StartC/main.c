@@ -20,6 +20,8 @@
 #import "APFunctionMamaPapa.h"
 #import "APSenatorFunction.h"
 #include "APFunctionMacrosType.h"
+#include "APOutputSizeType.h"
+#include "APFirstWorkWithStructure.h"
 
 /*
 char *APtestChar = "Hello";
@@ -46,6 +48,7 @@ int main(int argc, const char * argv[]) {
     //APPrint();
     APPrint("World!");
     APPrint("mama!");
+    APFunctionOutputSizeType();
     APPrintParents();
     APPrintNumberForUp();
     APPrintNumberForDown();
@@ -69,6 +72,10 @@ int main(int argc, const char * argv[]) {
     APFunctionOutputNambersWhile(5, 2, 9);
     APFunctionSenatorIncome(200);
     APSomeFunctionMacros();
+    APFunctionMyFirstStructure();
+    APStructureAndUnionTest();
+    
+    
     
     
     

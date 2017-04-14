@@ -8,13 +8,14 @@
 
 #include "APFunctionMacrosType.h"
 
-APGeneratePrintFunction(char, %d)
+APGeneratePrintFunction(float, %f)
 
 void APSomeFunctionMacros(){
     
-    char const testType = 15;
-    APCallPrintFunction(char, testType);
+    float const testType = 15;
+    APCallPrintFunction(float, testType);
     
     PRINT_HELLO
+    printf("\v");
 }
 
