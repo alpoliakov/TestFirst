@@ -23,6 +23,7 @@
 #include "APOutputSizeType.h"
 #include "APFirstWorkWithStructure.h"
 #include "APNumberBitsOutput.h"
+#include "APStructureArray.h"
 
 /*
 char *APtestChar = "Hello";
@@ -75,7 +76,7 @@ int main(int argc, const char * argv[]) {
     APSomeFunctionMacros();
     APFunctionMyFirstStructure();
     APStructureAndUnionTest();
-    APShowNumberInBits(100);
+    APShowNumberInBits(1);
     
     
     

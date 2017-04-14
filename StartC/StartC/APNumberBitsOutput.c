@@ -34,6 +34,3 @@ void APShowNumberInBits(int someNumber){
     free(Arr);
 }
 
-
-
-

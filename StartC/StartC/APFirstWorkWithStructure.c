@@ -56,15 +56,6 @@ void APFunctionMyFirstStructure(){
     printf("Sizeof(AP_MyFirstStructure) = %zd\n\v", sizeof(AP_MyFirstStructure));
     
       
-//    
-//    int *pointerByte;
-//    pointerByte = (int *) APPointerMyFirstStructure;
-//   
-//    int i = 0;
-//    while(i < sizeof(AP_MyFirstStructure)) {
-//        printf("[%02d] %02X\n", i, pointerByte[i]);
-//        ++i;
-//    }
 }
 
 typedef struct AP_FirstUnionStructure AP_FirstUnionStructure;
