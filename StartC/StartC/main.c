@@ -76,8 +76,15 @@ int main(int argc, const char * argv[]) {
     APSomeFunctionMacros();
     APFunctionMyFirstStructure();
     APStructureAndUnionTest();
-    APShowNumberInBits(1);
+    APShowNumberInBits(10);
+    APFunctionStructereArray();
+    APStructereArray *array = APStructereArrayCreate();
+    APStructereArraySetLength(array, 200);
+    void *markAuto = APStructereArrayGetData(array);
+    *(char *)markAuto = 15;
+    char x = *(char *)markAuto;
     
+    APStructereArrayRelease(array);
     
     
     

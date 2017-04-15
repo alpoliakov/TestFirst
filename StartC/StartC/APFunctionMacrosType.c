@@ -11,10 +11,9 @@
 APGeneratePrintFunction(float, %f)
 
 void APSomeFunctionMacros(){
-    
+   
     float const testType = 15;
     APCallPrintFunction(float, testType);
-    
     PRINT_HELLO
     printf("\v");
 }

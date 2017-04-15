@@ -16,13 +16,13 @@
 
 struct AP_MyFirstStructure {
     char *pointerOnString;
+    long long someLongLong;
+    double someDouble;
+    int someInt;
+    float someFloat;
     short someShort1;
     short someShort2;
     short someShort3;
-    int someInt;
-    float someFloat;
-    long long someLongLong;
-    double someDouble;
     bool someBool1;
     bool someBool2;
     bool someBool3;
@@ -34,24 +34,23 @@ struct AP_MyFirstStructure {
 
 
 struct AP_FirstUnionStructure {
-    char *_pointerOnString;
-    long long _someLongLong;
-    double _someDouble;
-    int _someInt;
-    float _someFloat;
-    short _someShort1;
-    short _someShort2;
-    short _someShort3;
+    char *pointerOnStringUnion;
+    long long someLongLongUnion;
+    double _someDoubleUnion;
+    int someIntUnion;
+    float someFloatUnion;
+    short someShort1Union;
+    short someShort2Union;
+    short someShort3Union;
     union {
         struct {
-            bool _someBool1;
-            bool _someBool2;
-            bool _someBool3;
-            bool _someBool4;
-            bool _someBool5;
-            bool _someBool6;
-
-        };
+            bool someBoolUnion1: 1;
+            bool someBoolUnion2: 1;
+            bool someBoolUnion3: 1;
+            bool someBoolUnion4: 1;
+            bool someBoolUnion5: 1;
+            bool someBoolUnion6: 1;
+        }flags;
         char bitFieldsBool;
     };
     

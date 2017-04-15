@@ -38,4 +38,5 @@ void APFunctionSenatorIncome(Money salary){
             printf("It's not clear - is it alive, isn't it?\n");
             break;
     }
+    printf("\v");
 }

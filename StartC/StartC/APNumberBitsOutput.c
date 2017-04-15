@@ -19,7 +19,7 @@ void APShowNumberInBits(int someNumber){
     int i = 0;
     while (i < j) {
         Arr[i] = someNumber & 1;
-        someNumber = someNumber >> 1;
+        someNumber >>= 1;
         ++i;
     }
     
