@@ -32,7 +32,6 @@ struct AP_MyFirstStructure {
     
 };
 
-
 struct AP_FirstUnionStructure {
     char *pointerOnStringUnion;
     long long someLongLongUnion;
@@ -56,7 +55,6 @@ struct AP_FirstUnionStructure {
     
     
 };
-
 
 void APFunctionMyFirstStructure();
 void APStructureAndUnionTest();

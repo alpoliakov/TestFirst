@@ -12,18 +12,18 @@ char someSrtring[] = {"Some string wich has some long."};
 char *valueSomeString = someSrtring;
 
 
-void APFunctionLengthString(){
+void APFunctionLengthString() {
     int count = 0;
     while (valueSomeString[count] != '\0') {
         count++;
         //valueSomeString++;
     }
     printf("%d\n\v", count);
-    int lengthArray = sizeof(someSrtring)/sizeof(someSrtring[0]);
+    int lengthArray = sizeof(someSrtring) / sizeof(someSrtring[0]);
     printf("%d\n\v", lengthArray);
 }
 
-void APFunctionOutputSymbols(){
+void APFunctionOutputSymbols() {
     int i = 0;
     while (valueSomeString[i] != '\0') {
         printf("%c\n", valueSomeString[i]);
@@ -46,7 +46,6 @@ void APFunctionOutputSymbols(){
         cnt++;
     }
     printf("\n\v");
-    
     
     //Stopped run code on the middle
     

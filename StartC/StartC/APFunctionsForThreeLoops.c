@@ -8,8 +8,8 @@
 
 #import "APFunctionsForThreeLoops.h"
 
-void APFunctionOutputNambersLoopFor(int iteration, int small, int big){
-    for (int count = small, y = 2; count <= big && count != 50; count++, y++){
+void APFunctionOutputNambersLoopFor(int iteration, int small, int big) {
+    for (int count = small, y = 2; count <= big && count != 50; count++, y++) {
         for (int x = 0; x < iteration && x < 20; x++) {
             printf("%d", count);
         }
@@ -22,8 +22,7 @@ void APFunctionOutputNambersLoopFor(int iteration, int small, int big){
     printf("\v");
 }
 
-
-void APFunctionOutputNambersWhile(int iter, int smaller, int biggest){
+void APFunctionOutputNambersWhile(int iter, int smaller, int biggest) {
     int number = smaller;
     int rowNumbers  = 0;
     int rowNumberThree = 1;

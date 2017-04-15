@@ -8,18 +8,17 @@
 
 #import "APPrintSomeNumber.h"
 
-void APPrintNumberForUp(){
+void APPrintNumberForUp() {
     char i = 0;
-    for(; i <= 9; i++){
+    for(; i <= 9; i++) {
         printf("%d", i);
     }
     printf("\n");
-    
 }
 
-void APPrintNumberForDown(){
+void APPrintNumberForDown() {
     char i = 9;
-    for(; i >= 0; i--){
+    for(; i >= 0; i--) {
         printf("%d", i);
     }
     printf("\n");

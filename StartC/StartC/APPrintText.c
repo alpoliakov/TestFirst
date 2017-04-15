@@ -21,6 +21,6 @@ void APPrint(char *text) {
     printf("Hello, %s\n", text);
 }
 
-void APPrintParents(){
+void APPrintParents() {
     APPrint("papa!");
 }

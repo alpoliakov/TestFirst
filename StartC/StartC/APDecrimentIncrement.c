@@ -9,12 +9,12 @@
 #import "APDecrimentIncrement.h"
 
 
-void APFunctionDecrement(int paramDecrement){
+void APFunctionDecrement(int paramDecrement) {
     paramDecrement += 1;
     printf("%d\n", paramDecrement);
 }
 
-void APFunctionIncrement(int paramIncrement){
+void APFunctionIncrement(int paramIncrement) {
     paramIncrement -= 1;
     printf("%d\n", paramIncrement);
 }

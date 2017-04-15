@@ -9,7 +9,7 @@
 #import "APSomeMathOperations.h"
 
 double doubleResult = 3.0;
-void APFunctionMathOperations(){
+void APFunctionMathOperations() {
     int percentage = 4 % 7;
     double endEnd = 4.0 * doubleResult;
     endEnd = endEnd - 1.5;
@@ -23,7 +23,7 @@ void APFunctionMathOperations(){
 
 //  Tests with different types of variables
 
-void APSomeVariablesTests(){
+void APSomeVariablesTests() {
     int someInteger = 5;
     int someOneInteger = 2;
     float someFloat = 1.8;
@@ -59,7 +59,14 @@ void APPrintSomeVariablesTypes(){
     long someLong;
     
     
-    printf("%d\n %d\n %f\n %f\n %d\n %ld\n\v", someChare, someInt, someFloat, someDouble, someOneShort, someLong);
+    printf("%d\n %d\n %f\n %f\n %d\n %ld\n\v",
+           someChare,
+           someInt,
+           someFloat,
+           someDouble,
+           someOneShort,
+           someLong);
+    
     printf("Declaring and not initializing a variable, we do not know what exactly is in the variable now.\n\v");
 }
 
