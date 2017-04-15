@@ -10,18 +10,18 @@
 
 static const size_t APDefaultLength = 100;
 
-APStructereArray *APStructereArrayCreate(){
+APStructereArray *APStructereArrayCreate() {
     APStructereArray *array = (APStructereArray*)calloc(1, sizeof(*array));
     APStructereArrayRetain(array);
     APStructereArraySetLength(array, APDefaultLength);
         return array;
 }
 
-void APStructereArrayRetain(APStructereArray *array){
+void APStructereArrayRetain(APStructereArray *array) {
     array->refCount += 1;
 }
 
-void APStructereArrayRelease(APStructereArray *array){
+void APStructereArrayRelease(APStructereArray *array) {
     size_t count = array->refCount - 1;
     array->refCount = count;
     if (!count) {
@@ -30,19 +30,20 @@ void APStructereArrayRelease(APStructereArray *array){
     }
 }
 
-void *APStructereArrayGetData(APStructereArray *array){
+void *APStructereArrayGetData(APStructereArray *array) {
     return array -> markAuto;
 }
 
-size_t APStructereArrayGetLength(APStructereArray *array){
+size_t APStructereArrayGetLength(APStructereArray *array) {
     return array -> length;
 }
 
-void APStructereArraySetLength(APStructereArray *array, size_t length){
+void APStructereArraySetLength(APStructereArray *array, size_t length) {
     size_t currentLength = array->length;
     if (currentLength == length) {
         return;
     }
+    
     array->markAuto = realloc(array->markAuto, length);
     
     if (currentLength < length) {
@@ -51,7 +52,7 @@ void APStructereArraySetLength(APStructereArray *array, size_t length){
     array->length = length;
 }
 
-void APFunctionStructereArray(){
+void APFunctionStructereArray() {
     printf("Size APStructereArrayTest: %zd\n\v", sizeof(APStructereArray));
 }
 

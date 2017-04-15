@@ -8,11 +8,7 @@
 
 #import "APFirstWorkWithStructure.h"
 
-
-
-
 typedef struct AP_MyFirstStructure AP_MyFirstStructure;
-
 
 void APFunctionMyFirstStructure(){
     AP_MyFirstStructure *APPointerMyFirstStructure;
@@ -34,9 +30,6 @@ void APFunctionMyFirstStructure(){
            sizeof(APPointerMyFirstStructure -> someBool5),
            sizeof(APPointerMyFirstStructure -> someBool6));
     
-    
-    
-    
     printf("Offsets:\n pointerOnString = %zd\n someShort1 = %zd\n someShort2 = %zd\n someShort3 = %zd\n someInt = %zd\n someFloat = %zd\n someLongLong = %zd\n someDouble = %zd\n someBool1 = %zd\n someBool2 = %zd\n someBool3 = %zd\n someBool4 = %zd\n someBool5 = %zd\n someBool6 = %zd\n\v",
            offsetof(AP_MyFirstStructure, pointerOnString),
            offsetof(AP_MyFirstStructure, someShort1),
@@ -54,20 +47,15 @@ void APFunctionMyFirstStructure(){
            offsetof(AP_MyFirstStructure, someBool6));
     
     printf("Sizeof(AP_MyFirstStructure) = %zd\n\v", sizeof(AP_MyFirstStructure));
-    
-      
 }
 
 typedef struct AP_FirstUnionStructure AP_FirstUnionStructure;
 
 AP_FirstUnionStructure unionStructure;
 
-void APStructureAndUnionTest(){
-    
+void APStructureAndUnionTest() {
     printf("Sizeof(AP_FirstUnionStructure) = %zd\n\v", sizeof(AP_FirstUnionStructure));
     printf("Offset bitFieldsBool = %zd\n\v", offsetof(AP_FirstUnionStructure, bitFieldsBool));
-    
-    
 }
 
 //

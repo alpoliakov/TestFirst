@@ -8,9 +8,12 @@
 
 #include "APNumberBitsOutput.h"
 
-void APShowNumberInBits(int someNumber){
+//int someNumber
+
+void APShowNumberInBits(int someNumber) {
     int j = 0;
     int numBitsInInt = 0;
+    //int bits = size_t APSizeType sizeof(int) * 2;
     
     j = numBitsInInt = sizeof(int) * 8;
     char *Arr;
@@ -26,7 +29,7 @@ void APShowNumberInBits(int someNumber){
     for (i = numBitsInInt - 1; i >= 0; --i) {
         if (Arr[i]) {
             printf("%c", '1');
-        }else{
+        } else {
             printf("%c", '0');
         }
     }

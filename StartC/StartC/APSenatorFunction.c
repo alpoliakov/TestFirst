@@ -16,7 +16,7 @@ typedef enum  {
 
 typedef int Money;
 
-void APFunctionSenatorIncome(Money salary){
+void APFunctionSenatorIncome(Money salary) {
     Money embazzlement = salary * 1000;
     Money honest = salary * 120;
     Money angel = salary * 12;
@@ -28,12 +28,15 @@ void APFunctionSenatorIncome(Money salary){
         case APEmbezzlement:
             printf("It's an embazzlement!\n");
             break;
+            
         case APRelativelyHonest:
             printf("It may well be an honest man!\n");
             break;
+            
         case APAlmostAnAngel:
             printf("Yes it's almost an angel!\n");
             break;
+            
         default:
             printf("It's not clear - is it alive, isn't it?\n");
             break;

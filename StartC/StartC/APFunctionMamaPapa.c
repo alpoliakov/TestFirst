@@ -18,11 +18,11 @@ int countMama = 0;
 int countPapa = 0;
 int countMamaPapa = 0;
 
-char oneTextPapa[] = "Papa";
-char twoTextMama[] = "Mama";
+char * const oneTextPapa = "Papa";
+char * const twoTextMama = "Mama";
 
 
-void APtestFunctionMamaPapa(int inputSomeInteger){
+void APtestFunctionMamaPapa(int inputSomeInteger) {
     
     APTestIfElse();
     
@@ -32,15 +32,15 @@ void APtestFunctionMamaPapa(int inputSomeInteger){
     
 }
 
-void APTestIfElse(inputSomeInteger){
+void APTestIfElse(inputSomeInteger) {
     for (int count = 1; count <= inputSomeInteger; count++) {
         if (count % integerOne == 0 && count % integerTwo == 0) {
             printf("%s%s\n", twoTextMama, oneTextPapa);
             ++countMamaPapa;
-        }else if (count % integerOne == 0){
+        } else if (count % integerOne == 0) {
             printf("%s\n", twoTextMama);
             ++countMama;
-        }else if (count % integerTwo == 0){
+        } else if (count % integerTwo == 0) {
             printf("%s\n", oneTextPapa);
             ++countPapa;
         }
@@ -55,7 +55,7 @@ typedef char * const  APsomeText;
 static APsomeText APmama = "Mama";
 static APsomeText APpapa = "Papa";
 
-bool APPrintModification(int value, int divisor, APsomeText string){
+bool APPrintModification(int value, int divisor, APsomeText string) {
     bool doPrint = !(value%divisor);
     
     if (doPrint) {
@@ -65,7 +65,7 @@ bool APPrintModification(int value, int divisor, APsomeText string){
     return doPrint;
 }
 
-void APprintingMamaPapa(int value){
+void APprintingMamaPapa(int value) {
     bool doPrint = APPrintModification(value, 3, APmama);
     doPrint = APPrintModification(value, 5, APpapa) || doPrint;
     

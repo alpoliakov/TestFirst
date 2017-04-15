@@ -13,5 +13,4 @@
 
 void APFunctionSenatorIncome();
 
-
 #endif /* APSenatorFunction_h */

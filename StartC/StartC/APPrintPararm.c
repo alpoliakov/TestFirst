@@ -8,7 +8,7 @@
 
 #import "APPrintPararm.h"
 
-void APprintSomeParam(char *APnameSomeParam, char *APsomeParam){
+void APprintSomeParam(char *APnameSomeParam, char *APsomeParam) {
     printf("%s : %s\n", APnameSomeParam, APsomeParam);
 
 };

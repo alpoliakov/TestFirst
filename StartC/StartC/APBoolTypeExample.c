@@ -8,7 +8,7 @@
 
 #import "APBoolTypeExample.h"
 
-void APsomeExamplesBool(bool trueOrFalse){
+void APsomeExamplesBool(bool trueOrFalse) {
     if (trueOrFalse != 0) {
         printf("true\n\v");
         return;
@@ -43,7 +43,7 @@ void APsomeMathLogicOperations(int paramOne, int paramTwo){
 
 // Ternary Operator
 
-void APSomeTernaryOperation(int paramTernaryOne, int paramTernaryTwo){
+void APSomeTernaryOperation(int paramTernaryOne, int paramTernaryTwo) {
     (paramTernaryOne >= paramTernaryTwo) ? printf("mama\n\v") : printf("papa\n\v");
 }
 
@@ -77,21 +77,21 @@ void APSomeExampleArray(){
     printf("\n\v");
     
     int count = 0;
-    do{
+    do {
         printf("%d\t", someArrayThree[count]);
         count += 1;
-    }while (count < 3);
+    } while (count < 3);
     printf("\n\v");
     
     int shortArray[3] = {4, 5, 7, 9, 5};
-    int sizeShortArray = sizeof(shortArray)/sizeof(shortArray[0]);
+    int sizeShortArray = sizeof(shortArray) / sizeof(shortArray[0]);
     for (int k = 0; k < sizeShortArray; k++) {
         printf("%d\t", shortArray[k]);
     }
     printf("\n\v");
     
     int longArray[5] = {2, 3, 1,};
-    int sizeLongArray = sizeof(longArray)/sizeof(longArray[0]);
+    int sizeLongArray = sizeof(longArray) / sizeof(longArray[0]);
     for (int num = 0; num < sizeLongArray; num++) {
         printf("%d\t", longArray[num]);
     }
