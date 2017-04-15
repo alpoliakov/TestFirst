@@ -41,8 +41,6 @@ double APtestDouble = 1.7E+308;
 long double APtestLongDouble = 3.4E-324;
 */
 
-
-
 int main(int argc, const char * argv[]) {
     // insert code here...
     //printf("Hello, World!\n");
@@ -83,10 +81,7 @@ int main(int argc, const char * argv[]) {
     void *markAuto = APStructereArrayGetData(array);
     *(char *)markAuto = 15;
     char x = *(char *)markAuto;
-    
     APStructereArrayRelease(array);
-    
-    
     
     return 0;
 }
