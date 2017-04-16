@@ -25,6 +25,7 @@
 #include "APFirstWorkWithStructure.h"
 #include "APNumberBitsOutput.h"
 #include "APStructureArray.h"
+#include "APTrainyCreateMacro.h"
 
 /*
 char *APtestChar = "Hello";
@@ -83,6 +84,8 @@ int main(int argc, const char * argv[]) {
     *(char *)markAuto = 15;
     char x = *(char *)markAuto;
     APStructereArrayRelease(array);
+    APFounctionOutputSizeStructure();
+    APFounctionOutputOffsetStructure();
     
     return 0;
 }

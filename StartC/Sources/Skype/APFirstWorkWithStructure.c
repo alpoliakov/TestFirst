@@ -6,13 +6,17 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
+
+
 #import "APFirstWorkWithStructure.h"
 
 typedef struct AP_MyFirstStructure AP_MyFirstStructure;
 
+
 void APFunctionMyFirstStructure(){
     AP_MyFirstStructure *APPointerMyFirstStructure;
     //APPointerMyFirstStructure = malloc(sizeof(AP_MyFirstStructure));
+    
     
     printf("Size:\n pointerOnString = %zd\n someShort1 = %zd\n someShort2 = %zd\n someShort3 = %zd\n someInt = %zd\n someFloat = %zd\n someLongLong = %zd\n someDouble = %zd\n someBool1 = %zd\n someBool2 = %zd\n someBool3 = %zd\n someBool4 = %zd\n someBool5 = %zd\n someBool6 = %zd\n\v",
            sizeof(APPointerMyFirstStructure -> pointerOnString),
@@ -58,16 +62,17 @@ void APStructureAndUnionTest() {
     printf("Offset bitFieldsBool = %zd\n\v", offsetof(AP_FirstUnionStructure, bitFieldsBool));
 }
 
-//
-//    int *pointerByte;
-//    pointerByte = (int *) APPointerMyFirstStructure;
-//
-//    int i = 0;
-//    while(i < sizeof(AP_MyFirstStructure)) {
-//        printf("[%02d] %02X\n", i, pointerByte[i]);
-//        ++i;
-//    }
 
+
+
+//int pointerByte;
+//pointerByte = (int *) APPointerMyFirstStructure;
+//
+//int i = 0;
+//while(i < sizeof(AP_MyFirstStructure)) {
+//    printf("[%02d] %02X\n", i, pointerByte[i]);
+//    ++i;
+//}
 
 
 

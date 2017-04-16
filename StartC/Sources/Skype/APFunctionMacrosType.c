@@ -8,7 +8,6 @@
 
 #include "APFunctionMacrosType.h"
 
-
 APGeneratePrintFunction(float, %5.4f)
 APGeneratePrintFunction(char, %d)
 APGeneratePrintFunction(double, %0.2f)
