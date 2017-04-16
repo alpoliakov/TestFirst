@@ -43,5 +43,4 @@ struct APUnionStructure {
     }itFieldsBool;
 };
 
-
 #endif /* APTrainyCreateMacro_h */

@@ -11,7 +11,6 @@
 typedef struct APUnionStructure APUnionStructure;
 APUnionStructure *PointerAPUnionStructure;
 
-
 APGeneratePrintSizeStructure(char, pointerOnString, "%zd");
 APGeneratePrintSizeStructure(double, someDoubleUnion, "%0.2f");
 APGeneratePrintSizeStructure(int, someIntUnion, "%zd");
@@ -43,4 +42,3 @@ void APFounctionOutputOffsetStructure() {
     APPlaceStructureElements(APUnionStructure, itFieldsBool)
     printf("\v");
 }
-
