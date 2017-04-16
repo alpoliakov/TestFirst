@@ -7,3 +7,13 @@
 //
 
 #include "APTrainyCreatureMacro.h"
+
+typedef struct ExampleStructure ExampleStructure;
+ExampleStructure *APPointerExampleStructure;
+
+APGeneratPrintFunction(double,"%zd");
+
+void APOutputSizeStructure(void) {
+    
+    APCallPrintFunction(double, sizeof(APPointerExampleStructure -> someDouble));
+}
