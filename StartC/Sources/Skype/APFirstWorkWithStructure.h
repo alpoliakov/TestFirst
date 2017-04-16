@@ -29,7 +29,6 @@ struct AP_MyFirstStructure {
     bool someBool4;
     bool someBool5;
     bool someBool6;
-    
 };
 
 struct AP_FirstUnionStructure {
@@ -52,8 +51,6 @@ struct AP_FirstUnionStructure {
         }flags;
         char bitFieldsBool;
     };
-    
-    
 };
 
 void APFunctionMyFirstStructure();

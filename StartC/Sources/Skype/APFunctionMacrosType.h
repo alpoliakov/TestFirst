@@ -11,16 +11,16 @@
 
 #include <stdio.h>
 
+void APSomeFunctionMacros(void);
+
 #define APGeneratePrintFunction(type, formatter) \
 void APoutput_##type(type value) { \
-printf(#formatter "\n", value); \
+printf(#type " value = "#formatter";" "\n", value); \
 }
 
 #define APCallPrintFunction(type, value) \
 APoutput_##type(value)
 
 #define PRINT_HELLO printf("Hello, world!\n");
-
-void APSomeFunctionMacros();
 
 #endif /* APFunctionMacrosType_h */
