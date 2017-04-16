@@ -15,6 +15,7 @@
 #import "APDecrimentIncrement.h"
 #import "APSomeMathOperations.h"
 #import "APBoolTypeExample.h"
+#include "APCreatedArrayBegin.h"
 #import "APSomeStringExample.h"
 #import "APFunctionsForThreeLoops.h"
 #import "APFunctionMamaPapa.h"
@@ -24,6 +25,7 @@
 #include "APFirstWorkWithStructure.h"
 #include "APNumberBitsOutput.h"
 #include "APStructureArray.h"
+#include "APTrainyCreateMacro.h"
 
 /*
 char *APtestChar = "Hello";
@@ -60,10 +62,10 @@ int main(int argc, const char * argv[]) {
     APPrintSomeVariablesTypes();
     APUseDecrimentIncrement(40, 45);
     APsomeExamplesBool(false);
+    APExampleCreateArrayBeginner();
     APsomeMathLogicOperations(12, 15);
     APSomeTernaryOperation(20, 10);
     APSomeIfElseOperation(20,30);
-    APSomeExampleArray();
     APFunctionLengthString();
     APFunctionOutputSymbols();
     APtestFunctionMamaPapa(30);
@@ -82,8 +84,9 @@ int main(int argc, const char * argv[]) {
     *(char *)markAuto = 15;
     char x = *(char *)markAuto;
     APStructereArrayRelease(array);
+    APFounctionOutputSizeStructure();
+    APFounctionOutputOffsetStructure();
     
     return 0;
 }
-
 

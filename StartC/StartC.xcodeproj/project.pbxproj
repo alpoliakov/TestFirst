@@ -23,6 +23,8 @@
 		0640A6D91EA2E4F8001101D8 /* APOutputSizeType.c in Sources */ = {isa = PBXBuildFile; fileRef = 0640A6C81EA2E4F8001101D8 /* APOutputSizeType.c */; };
 		0640A6DA1EA2E4F8001101D8 /* APStructureArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 0640A6CA1EA2E4F8001101D8 /* APStructureArray.c */; };
 		067B08D91E993C5800104497 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 067B08D81E993C5800104497 /* main.c */; };
+		06BD9BEB1EA39865007EFA71 /* APCreatedArrayBegin.c in Sources */ = {isa = PBXBuildFile; fileRef = 06BD9BE91EA39865007EFA71 /* APCreatedArrayBegin.c */; };
+		06C1E00B1EA3CF3C00BACE64 /* APTrainyCreateMacro.c in Sources */ = {isa = PBXBuildFile; fileRef = 06C1E0091EA3CF3C00BACE64 /* APTrainyCreateMacro.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +72,10 @@
 		0640A6CB1EA2E4F8001101D8 /* APStructureArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStructureArray.h; sourceTree = "<group>"; };
 		067B08D51E993C5800104497 /* StartC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StartC; sourceTree = BUILT_PRODUCTS_DIR; };
 		067B08D81E993C5800104497 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		06BD9BE91EA39865007EFA71 /* APCreatedArrayBegin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APCreatedArrayBegin.c; sourceTree = "<group>"; };
+		06BD9BEA1EA39865007EFA71 /* APCreatedArrayBegin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCreatedArrayBegin.h; sourceTree = "<group>"; };
+		06C1E0091EA3CF3C00BACE64 /* APTrainyCreateMacro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = APTrainyCreateMacro.c; sourceTree = "<group>"; };
+		06C1E00A1EA3CF3C00BACE64 /* APTrainyCreateMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTrainyCreateMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,8 @@
 				0640A6BC1EA2E4F8001101D8 /* APSomeMathOperations.h */,
 				0640A6BD1EA2E4F8001101D8 /* APSomeStringExample.c */,
 				0640A6BE1EA2E4F8001101D8 /* APSomeStringExample.h */,
+				06BD9BE91EA39865007EFA71 /* APCreatedArrayBegin.c */,
+				06BD9BEA1EA39865007EFA71 /* APCreatedArrayBegin.h */,
 			);
 			path = PastTwo;
 			sourceTree = "<group>";
@@ -140,6 +148,8 @@
 				0640A6C91EA2E4F8001101D8 /* APOutputSizeType.h */,
 				0640A6CA1EA2E4F8001101D8 /* APStructureArray.c */,
 				0640A6CB1EA2E4F8001101D8 /* APStructureArray.h */,
+				06C1E0091EA3CF3C00BACE64 /* APTrainyCreateMacro.c */,
+				06C1E00A1EA3CF3C00BACE64 /* APTrainyCreateMacro.h */,
 			);
 			path = Skype;
 			sourceTree = "<group>";
@@ -240,7 +250,9 @@
 				0640A6D51EA2E4F8001101D8 /* APFirstWorkWithStructure.c in Sources */,
 				0640A6D91EA2E4F8001101D8 /* APOutputSizeType.c in Sources */,
 				0640A6D61EA2E4F8001101D8 /* APFunctionMacrosType.c in Sources */,
+				06BD9BEB1EA39865007EFA71 /* APCreatedArrayBegin.c in Sources */,
 				0640A6D01EA2E4F8001101D8 /* APBoolTypeExample.c in Sources */,
+				06C1E00B1EA3CF3C00BACE64 /* APTrainyCreateMacro.c in Sources */,
 				0640A6D21EA2E4F8001101D8 /* APSenatorFunction.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
