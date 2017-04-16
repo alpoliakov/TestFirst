@@ -6,7 +6,8 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 //#include <stdio.h>
-#import "APPrintText.h"
+
+#include "APPrintText.h"
 
 /*
 void APPrint(){
