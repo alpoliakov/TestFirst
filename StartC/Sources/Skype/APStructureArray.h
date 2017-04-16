@@ -34,7 +34,6 @@ void APStructereArraySetLength(APStructereArray *array, size_t length);
 
 size_t APStructereArrayGetLength(APStructereArray *array);
 
-
 void APFunctionStructereArray();
 
 
