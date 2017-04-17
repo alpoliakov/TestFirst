@@ -77,6 +77,9 @@ int main(int argc, const char * argv[]) {
     APFunctionMyFirstStructure();
     APStructureAndUnionTest();
     APShowNumberInBits(10);
+    //int adressByte = 10;
+    APTestForOutputNumberInBits();
+    //APFunctionOutputNumberInBits();
     APFunctionStructereArray();
     APStructereArray *array = APStructereArrayCreate();
     APStructereArraySetLength(array, 200);

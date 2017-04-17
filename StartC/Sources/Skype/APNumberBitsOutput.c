@@ -6,34 +6,61 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
+// Correct variant
+
 #include "APNumberBitsOutput.h"
 
-//int someNumber
+static const int KAPBitsInByte = 8;
 
-void APShowNumberInBits(int someNumber) {
+void APFunctionOutputNumberInBits(void *adressByte, size_t size) {
+    for (int index = 0; index < size ; index++) {
+        char byte = ((char *)adressByte)[size - index -1];
+        APFunctionOutputOneBit(&byte);
+    }
+    printf("\v");
+}
+
+void APFunctionOutputOneBit(char *adressByte) {
+    uint8_t value = *adressByte;
+    for (int shift = KAPBitsInByte; shift > 0; shift--) {
+        uint8_t shiftValue = value >> (shift -1);
+        printf("%d", shiftValue & 1);
+    }
+    printf("\n");
+}
+
+void APTestForOutputNumberInBits(){
+    int some = 10.00;
+    APFunctionOutputNumberInBits(&some, sizeof(some));
+}
+
+// Old variant
+
+static const int APKAPBitsInByte = 8;
+typedef int type;
+
+void APShowNumberInBits(type value) {
     int j = 0;
-    int numBitsInInt = 0;
-    //int bits = size_t APSizeType sizeof(int) * 2;
-    
-    j = numBitsInInt = sizeof(int) * 8;
-    char *Arr;
-    Arr = (char *) calloc(numBitsInInt, sizeof(char));
-    
+    int numBitsInNum = 0;
+    j = numBitsInNum = sizeof(type) * APKAPBitsInByte;
+    char *arrForBits;
+    arrForBits = (char *) calloc(numBitsInNum, sizeof(char));
     int i = 0;
     while (i < j) {
-        Arr[i] = someNumber & 1;
-        someNumber >>= 1;
+        arrForBits[i] = value & 1;
+        value >>= 1;
         ++i;
     }
-    
-    for (i = numBitsInInt - 1; i >= 0; --i) {
-        if (Arr[i]) {
+    for (i = numBitsInNum - 1; i >= 0; --i) {
+        if (arrForBits[i]) {
             printf("%c", '1');
         } else {
             printf("%c", '0');
         }
     }
     printf("\n\v");
-    free(Arr);
+    free(arrForBits);
 }
+
+
 
