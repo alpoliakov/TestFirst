@@ -13,7 +13,6 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-
 void APShowNumberInBits();
 void APTestForOutputNumberInBits();
 void APFunctionOutputOneBit();

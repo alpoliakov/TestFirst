@@ -14,7 +14,7 @@
 
 void APtestFunctionMamaPapa();
 void APTestIfElse();
-void APprintingMamaPapa();
-void APPrintMP();
+void APPrintingMamaPapa();
+void APPrintMamaPapa();
 
 #endif /* APFunctionMamaPapa_h */

@@ -44,10 +44,6 @@ long double APtestLongDouble = 3.4E-324;
 */
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    //printf("Hello, World!\n");
-    //return 0;
-    //APPrint();
     APPrint("World!");
     APPrint("mama!");
     APFunctionOutputSizeType();
@@ -63,13 +59,13 @@ int main(int argc, const char * argv[]) {
     APUseDecrimentIncrement(40, 45);
     APsomeExamplesBool(false);
     APExampleCreateArrayBeginner();
-    APsomeMathLogicOperations(12, 15);
+    APSomeMathLogicOperations(12, 15);
     APSomeTernaryOperation(20, 10);
     APSomeIfElseOperation(20,30);
     APFunctionLengthString();
     APFunctionOutputSymbols();
     APtestFunctionMamaPapa(30);
-    APPrintMP(30);
+    APPrintMamaPapa(30);
     APFunctionOutputNambersLoopFor(4, 1, 8);
     APFunctionOutputNambersWhile(5, 2, 9);
     APFunctionSenatorIncome(200);
@@ -77,16 +73,8 @@ int main(int argc, const char * argv[]) {
     APFunctionMyFirstStructure();
     APStructureAndUnionTest();
     APShowNumberInBits(10);
-    //int adressByte = 10;
     APTestForOutputNumberInBits();
-    //APFunctionOutputNumberInBits();
-    APFunctionStructereArray();
-    APStructereArray *array = APStructereArrayCreate();
-    APStructereArraySetLength(array, 200);
-    void *markAuto = APStructereArrayGetData(array);
-    *(char *)markAuto = 15;
-    char x = *(char *)markAuto;
-    APStructereArrayRelease(array);
+    APTestForStructureArray();
     APFounctionOutputSizeStructure();
     APFounctionOutputOffsetStructure();
     

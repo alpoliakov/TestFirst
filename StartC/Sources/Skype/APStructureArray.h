@@ -13,12 +13,15 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include "strings.h"
 
 struct APStructereArray {
     size_t refCount;
     void *markAuto;
     size_t length;
 };
+
+void APTestForStructureArray();
 
 typedef struct APStructereArray APStructereArray;
 

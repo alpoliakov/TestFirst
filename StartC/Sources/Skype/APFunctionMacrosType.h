@@ -14,12 +14,12 @@
 void APSomeFunctionMacros(void);
 
 #define APGeneratePrintFunction(type, formatter) \
-void APoutput_##type(type value) { \
-printf(#type " value = "#formatter";" "\n", value); \
+    void APoutput_##type(type value) { \
+        printf(#type " value = "#formatter";" "\n", value); \
 }
 
 #define APCallPrintFunction(type, value) \
-APoutput_##type(value)
+    APoutput_##type(value)
 
 #define PRINT_HELLO printf("Hello, world!\n");
 

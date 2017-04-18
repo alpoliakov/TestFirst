@@ -13,15 +13,17 @@
 static const int KAPBitsInByte = 8;
 
 void APFunctionOutputNumberInBits(void *adressByte, size_t size) {
+    char *bytesAdress = (char *)adressByte;
+    printf("Output:\n");
     for (int index = 0; index < size ; index++) {
-        char byte = ((char *)adressByte)[size - index -1];
+        char byte = bytesAdress[size - index - 1];
         APFunctionOutputOneBit(&byte);
     }
     printf("\v");
 }
 
-void APFunctionOutputOneBit(char *adressByte) {
-    uint8_t value = *adressByte;
+void APFunctionOutputOneBit(char *adressBite) {
+    uint8_t value = *adressBite;
     for (int shift = KAPBitsInByte; shift > 0; shift--) {
         uint8_t shiftValue = value >> (shift -1);
         printf("%d", shiftValue & 1);
@@ -30,7 +32,7 @@ void APFunctionOutputOneBit(char *adressByte) {
 }
 
 void APTestForOutputNumberInBits(){
-    int some = 10.00;
+    uint32_t some = 23;
     APFunctionOutputNumberInBits(&some, sizeof(some));
 }
 

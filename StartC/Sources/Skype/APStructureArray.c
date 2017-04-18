@@ -56,3 +56,13 @@ void APFunctionStructereArray() {
     printf("Size APStructereArrayTest: %zd\n\v", sizeof(APStructereArray));
 }
 
+void APTestForStructureArray() {
+    APStructereArray *array = APStructereArrayCreate();
+    APStructereArraySetLength(array, 200);
+    void *markAuto = APStructereArrayGetData(array);
+    *(char *)markAuto = 15;
+    char x = *(char *)markAuto;
+    APStructereArrayRelease(array);
+    APFunctionStructereArray();
+}
+
