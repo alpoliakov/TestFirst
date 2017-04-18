@@ -6,9 +6,6 @@
 //  Copyright © 2017 Aleksandr Poliakov. All rights reserved.
 //
 
-//#include "APPrintText.h"
-//#include "APPrintText.h"
-//#include "APPrintText.h"
 #include "APPrintText.h"
 #import "APPrintSomeNumber.h"
 #import "APPrintPararm.h"
