@@ -21,8 +21,9 @@ void APFunctionSenatorIncome(Money salary) {
     Money honest = salary * 120;
     Money angel = salary * 12;
     
-    APFinancialPosition position = (embazzlement > honest) ? APEmbezzlement : (honest > angel) ?
-    APRelativelyHonest : APAlmostAnAngel;
+    APFinancialPosition position = (embazzlement > honest)
+        ? APEmbezzlement : (honest > angel)
+            ? APRelativelyHonest : APAlmostAnAngel;
     
     switch (position) {
         case APEmbezzlement:

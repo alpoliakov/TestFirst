@@ -13,7 +13,7 @@
 #include <stdbool.h>
 
 void APsomeExamplesBool(bool);
-void APsomeMathLogicOperations();
+void APSomeMathLogicOperations();
 void APSomeTernaryOperation();
 void APSomeIfElseOperation();
 
