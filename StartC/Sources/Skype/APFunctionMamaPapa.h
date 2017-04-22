@@ -12,9 +12,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void APtestFunctionMamaPapa();
+void APTestFunctionMamaPapa();
 void APTestIfElse();
-void APprintingMamaPapa();
-void APPrintMP();
+void APPrintingMamaPapa();
+void APPrintMamaPapa();
 
 #endif /* APFunctionMamaPapa_h */

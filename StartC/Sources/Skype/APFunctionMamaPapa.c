@@ -8,56 +8,47 @@
 
 #import "APFunctionMamaPapa.h"
 
-
 // The first variant
 
-int integerOne = 3;
-int integerTwo = 5;
+static const int APIntegerOne = 3;
+static const int APIntegerTwo = 5;
+static int APCountMama = 0;
+static int APCountPapa = 0;
+static int APCountMamaPapa = 0;
+static char * const APStringPapa = "Papa";
+static char * const APStringMama = "Mama";
 
-int countMama = 0;
-int countPapa = 0;
-int countMamaPapa = 0;
-
-char * const oneTextPapa = "Papa";
-char * const twoTextMama = "Mama";
-
-
-void APtestFunctionMamaPapa(int inputSomeInteger) {
-    
-    APTestIfElse();
-    
-    printf("All mama - %d\n", countMama);
-    printf("All papa - %d\n", countPapa);
-    printf("All mamapapa - %d\n\v", countMamaPapa);
-    
+void APTestFunctionMamaPapa(int APInputInteger) {
+    APTestIfElse(APInputInteger);
+    printf("All mama - %d\n", APCountMama);
+    printf("All papa - %d\n", APCountPapa);
+    printf("All mamapapa - %d\n\v", APCountMamaPapa);
 }
 
-void APTestIfElse(inputSomeInteger) {
-    for (int count = 1; count <= inputSomeInteger; count++) {
-        if (count % integerOne == 0 && count % integerTwo == 0) {
-            printf("%s%s\n", twoTextMama, oneTextPapa);
-            ++countMamaPapa;
-        } else if (count % integerOne == 0) {
-            printf("%s\n", twoTextMama);
-            ++countMama;
-        } else if (count % integerTwo == 0) {
-            printf("%s\n", oneTextPapa);
-            ++countPapa;
+void APTestIfElse(int APInputInteger) {
+    for (int count = 1; count <= APInputInteger; count++) {
+        if (count % APIntegerOne == 0 && count % APIntegerTwo == 0) {
+            printf("%s%s\n", APStringMama, APStringPapa);
+            ++APCountMamaPapa;
+        } else if (count % APIntegerOne == 0) {
+            printf("%s\n", APStringMama);
+            ++APCountMama;
+        } else if (count % APIntegerTwo == 0) {
+            printf("%s\n", APStringPapa);
+            ++APCountPapa;
         }
     }
-
 }
 
 // The second variant
 
-typedef char * const  APsomeText;
+typedef char * const  APSomeText;
 
-static APsomeText APmama = "Mama";
-static APsomeText APpapa = "Papa";
+static APSomeText APMama = "Mama";
+static APSomeText APPapa = "Papa";
 
-bool APPrintModification(int value, int divisor, APsomeText string) {
+bool APPrintModification(int value, int divisor, APSomeText string) {
     bool doPrint = !(value%divisor);
-    
     if (doPrint) {
         printf("%s", string);
     }
@@ -65,21 +56,17 @@ bool APPrintModification(int value, int divisor, APsomeText string) {
     return doPrint;
 }
 
-void APprintingMamaPapa(int value) {
-    bool doPrint = APPrintModification(value, 3, APmama);
-    doPrint = APPrintModification(value, 5, APpapa) || doPrint;
-    
+void APPrintingMamaPapa(int value) {
+    bool doPrint = APPrintModification(value, 3, APMama);
+    doPrint = APPrintModification(value, 5, APPapa) || doPrint;
     if (doPrint) {
         printf("\n");
     }
 }
 
-void APPrintMP(int number){
+void APPrintMamaPapa(int number){
     for (int c = 1; c <= number; c++) {
-        APprintingMamaPapa(c);
+        APPrintingMamaPapa(c);
     }
     printf("\v");
 }
-
-
-

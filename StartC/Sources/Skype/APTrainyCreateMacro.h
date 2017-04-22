@@ -18,12 +18,12 @@ void APFounctionOutputSizeStructure();
 void APFounctionOutputOffsetStructure();
 
 #define APGeneratePrintSizeStructure(type, name, formatter) \
-void APOutput_##type(type value) { \
-printf(#type" "#name " size = "formatter";" "\n", value); \
+    void APOutput_##type(type value) { \
+        printf(#type" "#name " size = "formatter";" "\n", value); \
 }
 
 #define APCallPrintSizeStructureFunction(type, namePointer, name) \
-APOutput_##type(sizeof(namePointer->name))
+    APOutput_##type(sizeof(namePointer->name))
 
 #define APPlaceStructureElements(namePointer, name) \
     printf("offset: "#name " - %zd\n", offsetof(namePointer, name));\
@@ -40,8 +40,7 @@ struct APUnionStructure {
             bool someBoolUnion1: 1;
             bool someBoolUnion2: 1;
         }flags;
-    }itFieldsBool;
+    } itFieldsBool;
 };
-
 
 #endif /* APTrainyCreateMacro_h */

@@ -13,32 +13,20 @@ void APsomeExamplesBool(bool trueOrFalse) {
         printf("true\n\v");
         return;
     }
-    
     printf("false\n\v");
 }
 
-void APsomeMathLogicOperations(int paramOne, int paramTwo){
-    if (paramOne > paramTwo) {
-        APsomeExamplesBool(true);
-    }else{
-        APsomeExamplesBool(false);
+void APSomeMathLogicOperations(int paramOne, int paramTwo){
+    const int count = 4;
+    bool bools[count] = {
+        paramOne > paramTwo,
+        paramOne < paramTwo,
+        paramOne != paramTwo,
+        paramTwo == paramOne
+    };
+    for (int i = 0; i< count; i++) {
+        APsomeExamplesBool(bools[i]);
     }
-    if (paramOne < paramTwo) {
-        APsomeExamplesBool(true);
-    }else{
-        APsomeExamplesBool(false);
-    }
-    if (paramOne != paramTwo) {
-        APsomeExamplesBool(true);
-    }else{
-        APsomeExamplesBool(false);
-    }
-    if (paramTwo == paramOne) {
-        APsomeExamplesBool(true);
-    }else{
-        APsomeExamplesBool(false);
-    }
-    
 }
 
 // Ternary Operator

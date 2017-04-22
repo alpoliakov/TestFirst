@@ -13,28 +13,31 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include "strings.h"
 
-struct APStructereArray {
+struct APStructureArray {
     size_t refCount;
     void *markAuto;
     size_t length;
 };
 
-typedef struct APStructereArray APStructereArray;
+void APTestForStructureArray();
 
-APStructereArray *APStructereArrayCreate(void);
+typedef struct APStructureArray APStructureArray;
 
-void APStructereArrayRetain(APStructereArray *array);
+APStructureArray *APStructureArrayCreate(void);
 
-void APStructereArrayRelease(APStructereArray *array);
+void APStructureArrayRetain(APStructureArray *array);
 
-void *APStructereArrayGetData(APStructereArray *array);
+void APStructureArrayRelease(APStructureArray *array);
 
-void APStructereArraySetLength(APStructereArray *array, size_t length);
+void *APStructureArrayGetData(APStructureArray *array);
 
-size_t APStructereArrayGetLength(APStructereArray *array);
+void APStructureArraySetLength(APStructureArray *array, size_t length);
 
-void APFunctionStructereArray();
+size_t APStructureArrayGetLength(APStructureArray *array);
+
+void APFunctionStructureArray();
 
 
 #endif /* APStructureArray_h */

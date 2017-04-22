@@ -18,14 +18,14 @@ struct AP_MyFirstStructure {
     char *pointerOnString;
     long long someLongLong;
     double someDouble;
-    int someInt;
     float someFloat;
+    int someInt;
     short someShort1;
     short someShort2;
     short someShort3;
-    bool someBool1;
     bool someBool2;
     bool someBool3;
+    bool someBool1;
     bool someBool4;
     bool someBool5;
     bool someBool6;
@@ -34,7 +34,7 @@ struct AP_MyFirstStructure {
 struct AP_FirstUnionStructure {
     char *pointerOnStringUnion;
     long long someLongLongUnion;
-    double _someDoubleUnion;
+    double someDoubleUnion;
     int someIntUnion;
     float someFloatUnion;
     short someShort1Union;
