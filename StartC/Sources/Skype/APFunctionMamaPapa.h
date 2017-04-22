@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void APtestFunctionMamaPapa();
+void APTestFunctionMamaPapa();
 void APTestIfElse();
 void APPrintingMamaPapa();
 void APPrintMamaPapa();

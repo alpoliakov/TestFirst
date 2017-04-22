@@ -18,7 +18,7 @@ static int APCountMamaPapa = 0;
 static char * const APStringPapa = "Papa";
 static char * const APStringMama = "Mama";
 
-void APtestFunctionMamaPapa(int APInputInteger) {
+void APTestFunctionMamaPapa(int APInputInteger) {
     APTestIfElse(APInputInteger);
     printf("All mama - %d\n", APCountMama);
     printf("All papa - %d\n", APCountPapa);

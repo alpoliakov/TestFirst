@@ -61,7 +61,7 @@ int main(int argc, const char * argv[]) {
     APSomeIfElseOperation(20,30);
     APFunctionLengthString();
     APFunctionOutputSymbols();
-    APtestFunctionMamaPapa(30);
+    APTestFunctionMamaPapa(30);
     APPrintMamaPapa(30);
     APFunctionOutputNambersLoopFor(4, 1, 8);
     APFunctionOutputNambersWhile(5, 2, 9);
