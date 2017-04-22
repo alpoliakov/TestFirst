@@ -49,7 +49,6 @@ static APSomeText APPapa = "Papa";
 
 bool APPrintModification(int value, int divisor, APSomeText string) {
     bool doPrint = !(value%divisor);
-    
     if (doPrint) {
         printf("%s", string);
     }

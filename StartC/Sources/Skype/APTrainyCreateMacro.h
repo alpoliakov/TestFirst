@@ -40,7 +40,7 @@ struct APUnionStructure {
             bool someBoolUnion1: 1;
             bool someBoolUnion2: 1;
         }flags;
-    }itFieldsBool;
+    } itFieldsBool;
 };
 
 #endif /* APTrainyCreateMacro_h */

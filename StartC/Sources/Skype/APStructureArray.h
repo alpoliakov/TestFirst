@@ -15,7 +15,7 @@
 #include <stdbool.h>
 #include "strings.h"
 
-struct APStructereArray {
+struct APStructureArray {
     size_t refCount;
     void *markAuto;
     size_t length;
@@ -23,21 +23,21 @@ struct APStructereArray {
 
 void APTestForStructureArray();
 
-typedef struct APStructereArray APStructereArray;
+typedef struct APStructureArray APStructureArray;
 
-APStructereArray *APStructereArrayCreate(void);
+APStructureArray *APStructureArrayCreate(void);
 
-void APStructereArrayRetain(APStructereArray *array);
+void APStructureArrayRetain(APStructureArray *array);
 
-void APStructereArrayRelease(APStructereArray *array);
+void APStructureArrayRelease(APStructureArray *array);
 
-void *APStructereArrayGetData(APStructereArray *array);
+void *APStructureArrayGetData(APStructureArray *array);
 
-void APStructereArraySetLength(APStructereArray *array, size_t length);
+void APStructureArraySetLength(APStructureArray *array, size_t length);
 
-size_t APStructereArrayGetLength(APStructereArray *array);
+size_t APStructureArrayGetLength(APStructureArray *array);
 
-void APFunctionStructereArray();
+void APFunctionStructureArray();
 
 
 #endif /* APStructureArray_h */
